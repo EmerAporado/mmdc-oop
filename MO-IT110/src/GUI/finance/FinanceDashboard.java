@@ -79,7 +79,7 @@ public class FinanceDashboard extends JFrame {
         headerPanel.add(titleLabel,titleLabelGBC);
     	
     	// search button
-    	ImageIcon searchButtonImage = new ImageIcon("resources/images/search-button-small.png");
+    	ImageIcon searchButtonImage = new ImageIcon("MO-IT110/resources/images/search-button-small.png");
     	searchButton = new JButton(searchButtonImage);
     	searchButton.setBorder(null);
         searchButton.setContentAreaFilled(false); 
@@ -519,10 +519,10 @@ public class FinanceDashboard extends JFrame {
     public class FontLoader {
 
         // Public static font variable (accessible from anywhere)
-        public static final Font poppinsRegular14f = loadCustomFont("resources/fonts/Poppins-Regular.ttf", 14f);
-        public static final Font poppinsRegular20f = loadCustomFont("resources/fonts/Poppins-Regular.ttf", 20f);
-        public static final Font poppinsSemiBold18f = loadCustomFont("resources/fonts/Poppins-SemiBold.ttf", 18f);
-        public static final Font poppinsBold25f = loadCustomFont("resources/fonts/Poppins-Bold.ttf", 25f);
+        public static final Font poppinsRegular14f = loadCustomFont("MO-IT110/resources/fonts/Poppins-Regular.ttf", 14f);
+        public static final Font poppinsRegular20f = loadCustomFont("MO-IT110/resources/fonts/Poppins-Regular.ttf", 20f);
+        public static final Font poppinsSemiBold18f = loadCustomFont("MO-IT110/resources/fonts/Poppins-SemiBold.ttf", 18f);
+        public static final Font poppinsBold25f = loadCustomFont("MO-IT110/resources/fonts/Poppins-Bold.ttf", 25f);
 
         // Font loading utility
         private static Font loadCustomFont(String fontPath, float size) {

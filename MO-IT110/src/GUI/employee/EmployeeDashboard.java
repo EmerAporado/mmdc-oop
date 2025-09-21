@@ -295,7 +295,7 @@ public class EmployeeDashboard extends JFrame {
 		mainPanel.add(menuBar, BorderLayout.WEST);
 		
 		// motorph logo
-		ImageIcon companyLogo = new ImageIcon("resources/images/motorph-logo-navyblue.png");
+		ImageIcon companyLogo = new ImageIcon("MO-IT110/resources/images/motorph-logo-navyblue.png");
 		JLabel companyLogoLabel = new JLabel(companyLogo);
 		GridBagConstraints companyLogoLabelGBC = new GridBagConstraints();
 		companyLogoLabelGBC.gridx = 0;
@@ -353,7 +353,7 @@ public class EmployeeDashboard extends JFrame {
 		menuBar.add(yearDropdown, yearDropdownGBC);
 		
 		//submit leave button
-		ImageIcon leaveRequestIcon = new ImageIcon("resources/images/employee/leave-request-button.png");
+		ImageIcon leaveRequestIcon = new ImageIcon("MO-IT110/resources/images/employee/leave-request-button.png");
 		JButton submitLeaveRequestButton = new JButton(leaveRequestIcon);
 		submitLeaveRequestButton.setFocusPainted(false);
 		submitLeaveRequestButton.setBorder(null);
@@ -367,7 +367,7 @@ public class EmployeeDashboard extends JFrame {
 		menuBar.add(submitLeaveRequestButton, submitLeaveRequestButtonGBC);
 		
 		// overtime button
-		ImageIcon submitOvertimeIcon = new ImageIcon("resources/images/employee/overtime-button.png");
+		ImageIcon submitOvertimeIcon = new ImageIcon("MO-IT110/resources/images/employee/overtime-button.png");
 		JButton submitOvertimeButton = new JButton(submitOvertimeIcon);
 		submitOvertimeButton.setSize(new Dimension(120,25));
 		submitOvertimeButton.setFocusPainted(false);
@@ -382,7 +382,7 @@ public class EmployeeDashboard extends JFrame {
 		menuBar.add(submitOvertimeButton, submitOvertimeButtonGBC);
 		
 		// payslip button
-		ImageIcon payslipIcon = new ImageIcon("resources/images/employee/payslip-button.png");
+		ImageIcon payslipIcon = new ImageIcon("MO-IT110/resources/images/employee/payslip-button.png");
 		JButton submitPayslipButton = new JButton(payslipIcon);
 		submitPayslipButton.setFocusPainted(false);
 		submitPayslipButton.setBorder(null);
@@ -396,7 +396,7 @@ public class EmployeeDashboard extends JFrame {
 		menuBar.add(submitPayslipButton, submitPayslipButtonGBC);
 		
 		// update information
-		ImageIcon informationIcon = new ImageIcon("resources/images/employee/my-information-button.png");
+		ImageIcon informationIcon = new ImageIcon("MO-IT110/resources/images/employee/my-information-button.png");
 		JButton editInfoButton = new JButton(informationIcon);
 		editInfoButton.setFocusPainted(false);
 		editInfoButton.setBorder(null);
@@ -410,7 +410,7 @@ public class EmployeeDashboard extends JFrame {
 		menuBar.add(editInfoButton, editInfoButtonGBC);
 		
 		// logout button
-		ImageIcon logoutIcon = new ImageIcon("resources/images/employee/employee-logout-button.png");
+		ImageIcon logoutIcon = new ImageIcon("MO-IT110/resources/images/employee/employee-logout-button.png");
 		JButton logoutButton = new JButton(logoutIcon);
 		logoutButton.setFocusPainted(false);
 		logoutButton.setBorder(null);
@@ -454,7 +454,7 @@ public class EmployeeDashboard extends JFrame {
 		titlePanel.add(profileName, profileNameGBC);
 		
 		// profile picture
-		ImageIcon profilePicImage = new ImageIcon ("resources/images/profile-pic-user.png");
+		ImageIcon profilePicImage = new ImageIcon ("MO-IT110/resources/images/profile-pic-user.png");
 		profilePic = new JLabel(profilePicImage);
 		GridBagConstraints profilePicImageGBC = new GridBagConstraints();
 		profilePicImageGBC.gridx = 2;
@@ -1624,12 +1624,12 @@ public class EmployeeDashboard extends JFrame {
 	public class FontLoader {
 
         // Public static font variable (accessible from anywhere)
-        public static final Font poppinsRegular14f = loadCustomFont("resources/fonts/Poppins-Regular.ttf", 14f); // regular text size
-        public static final Font poppinsRegular20f = loadCustomFont("resources/fonts/Poppins-Regular.ttf", 20f); // regular text size
-        public static final Font poppinsRegular18f= loadCustomFont("resources/fonts/Poppins-Regular.ttf", 16f); // regular text size
-        public static final Font poppinsRegularUserFont = loadCustomFont("resources/fonts/Poppins-Regular.ttf", 20f); // profile name
-        public static final Font poppinsSemiBold24f = loadCustomFont("resources/fonts/Poppins-SemiBold.ttf", 24f); // panel title
-        public static final Font poppinsBold40f = loadCustomFont("resources/fonts/Poppins-Bold.ttf", 40f); // title 
+        public static final Font poppinsRegular14f = loadCustomFont("MO-IT110/resources/fonts/Poppins-Regular.ttf", 14f); // regular text size
+        public static final Font poppinsRegular20f = loadCustomFont("MO-IT110/resources/fonts/Poppins-Regular.ttf", 20f); // regular text size
+        public static final Font poppinsRegular18f= loadCustomFont("MO-IT110/resources/fonts/Poppins-Regular.ttf", 16f); // regular text size
+        public static final Font poppinsRegularUserFont = loadCustomFont("MO-IT110/resources/fonts/Poppins-Regular.ttf", 20f); // profile name
+        public static final Font poppinsSemiBold24f = loadCustomFont("MO-IT110/resources/fonts/Poppins-SemiBold.ttf", 24f); // panel title
+        public static final Font poppinsBold40f = loadCustomFont("MO-IT110/resources/fonts/Poppins-Bold.ttf", 40f); // title
 
         // Font loading utility
         private static Font loadCustomFont(String fontPath, float size) {

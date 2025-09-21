@@ -443,7 +443,7 @@ public class UpdateEmployeeDetailsPage extends JFrame {
 			navBar.add(leftNavBar, BorderLayout.WEST);
 			
 				// back button
-				ImageIcon backButtonIcon = new ImageIcon("resources/images/back-button-navbar.png");
+				ImageIcon backButtonIcon = new ImageIcon("MO-IT110/resources/images/back-button-navbar.png");
 		        goBackToEmployeeListButton = new JButton(backButtonIcon);
 		        goBackToEmployeeListButton.setBorder(null);
 		        goBackToEmployeeListButton.setFocusPainted(false);
@@ -460,7 +460,7 @@ public class UpdateEmployeeDetailsPage extends JFrame {
 				});
 			    
 		        // company logo
-			    ImageIcon motorphlogoAdmin = new ImageIcon("resources/images/motorph-logo-white.png");
+			    ImageIcon motorphlogoAdmin = new ImageIcon("MO-IT110/resources/images/motorph-logo-white.png");
 		        JLabel motorPHLogo = new JLabel(motorphlogoAdmin);
 		        
 		        GridBagConstraints motorPHLogoGBC = new GridBagConstraints();
@@ -468,7 +468,7 @@ public class UpdateEmployeeDetailsPage extends JFrame {
 		        leftNavBar.add(motorPHLogo, motorPHLogoGBC);
 	        
 	        // admin account logo
-	        ImageIcon adminIcon = new ImageIcon("resources/images/Admin-Logo.png");
+	        ImageIcon adminIcon = new ImageIcon("MO-IT110/resources/images/Admin-Logo.png");
 	        JLabel adminIconLabel = new JLabel(adminIcon);
 	        adminIconLabel.setBorder(new EmptyBorder(-10,0,-10,0));
 	        navBar.add(adminIconLabel, BorderLayout.EAST);
@@ -619,7 +619,7 @@ public class UpdateEmployeeDetailsPage extends JFrame {
 		);
 		
 		// taskbar icon
-		ImageIcon taskbarImage = new ImageIcon("resources/images/motorph-taskbar-image.png");
+		ImageIcon taskbarImage = new ImageIcon("MO-IT110/resources/images/motorph-taskbar-image.png");
 		setIconImage(taskbarImage.getImage());
 		
 		// jframe window layout 
@@ -798,8 +798,8 @@ public class UpdateEmployeeDetailsPage extends JFrame {
 	private class FontLoader {
 
         // Public static font variable (accessible from anywhere)
-        public static final Font poppinsTextFont = loadCustomFont("resources/fonts/Poppins-Regular.ttf", 17f);
-        public static final Font poppinsConfirmButton = loadCustomFont("resources/fonts/Poppins-SemiBold.ttf", 17f);
+        public static final Font poppinsTextFont = loadCustomFont("MO-IT110/resources/fonts/Poppins-Regular.ttf", 17f);
+        public static final Font poppinsConfirmButton = loadCustomFont("MO-IT110/resources/fonts/Poppins-SemiBold.ttf", 17f);
 
         // Font loading utility
         private static Font loadCustomFont(String fontPath, float size) {

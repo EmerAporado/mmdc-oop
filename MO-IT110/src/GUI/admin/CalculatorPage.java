@@ -237,15 +237,15 @@ public class CalculatorPage extends JFrame {
 	// <editor-fold defaultstate="collapsed" desc="Generated Code">
 	private void initComponents(Compensation employeeComp) {
 
-		Font poppinsTitleBoldFont = loadCustomFont("resources/fonts/Poppins-Bold.ttf", 35f);
-		Font poppinsTitleSemiBold = loadCustomFont("resources/fonts/Poppins-SemiBold.ttf", 28f);
-		Font poppinsRegular28f = loadCustomFont("resources/fonts/Poppins-Regular.ttf", 28f);
-		Font poppinsRegular24f = loadCustomFont("resources/fonts/Poppins-Regular.ttf", 24f);
-		Font poppinsSemiBold24f = loadCustomFont("resources/fonts/Poppins-SemiBold.ttf", 24f);
-		Font poppinsCalculatorButton = loadCustomFont("resources/fonts/Poppins-SemiBold.ttf", 35);
-		Font poppinsSubTitleSemiBold = loadCustomFont("resources/fonts/Poppins-SemiBold.ttf", 18f);
-		Font poppinsRegularFont = loadCustomFont("resources/fonts/Poppins-Regular.ttf", 18f);
-		Font poppinsBoldFont = loadCustomFont("resources/fonts/Poppins-SemiBold.ttf", 18f);
+		Font poppinsTitleBoldFont = loadCustomFont("MO-IT110/resources/fonts/Poppins-Bold.ttf", 35f);
+		Font poppinsTitleSemiBold = loadCustomFont("MO-IT110/resources/fonts/Poppins-SemiBold.ttf", 28f);
+		Font poppinsRegular28f = loadCustomFont("MO-IT110/resources/fonts/Poppins-Regular.ttf", 28f);
+		Font poppinsRegular24f = loadCustomFont("MO-IT110/resources/fonts/Poppins-Regular.ttf", 24f);
+		Font poppinsSemiBold24f = loadCustomFont("MO-IT110/resources/fonts/Poppins-SemiBold.ttf", 24f);
+		Font poppinsCalculatorButton = loadCustomFont("MO-IT110/resources/fonts/Poppins-SemiBold.ttf", 35);
+		Font poppinsSubTitleSemiBold = loadCustomFont("MO-IT110/resources/fonts/Poppins-SemiBold.ttf", 18f);
+		Font poppinsRegularFont = loadCustomFont("MO-IT110/resources/fonts/Poppins-Regular.ttf", 18f);
+		Font poppinsBoldFont = loadCustomFont("MO-IT110/resources/fonts/Poppins-SemiBold.ttf", 18f);
 		
 
 		grossSalaryComputationLabel = new javax.swing.JLabel();
@@ -399,9 +399,9 @@ public class CalculatorPage extends JFrame {
 		// MENUBAR LAYOUT
 		
 		// add the logos
-		ImageIcon motorphlogoAdmin = new ImageIcon("resources/images/motorph-logo-white.png");
+		ImageIcon motorphlogoAdmin = new ImageIcon("MO-IT110/resources/images/motorph-logo-white.png");
         JLabel motorPHLogo = new JLabel(motorphlogoAdmin);
-        ImageIcon admindisplayLogo = new ImageIcon("resources/images/Admin-Logo.png");
+        ImageIcon admindisplayLogo = new ImageIcon("MO-IT110/resources/images/Admin-Logo.png");
         JLabel adminLogo = new JLabel(admindisplayLogo);
         
         GridBagConstraints gbc_motorPHLogo = new GridBagConstraints();

@@ -26,9 +26,9 @@ public class HRDashboard extends JFrame {
         String lightGray = "#f5f5f5";
         String lightRed ="#ff5757";
         
-        Font poppinsRegular14f = loadCustomFont("resources/fonts/Poppins-Regular.ttf", 14f);
-        Font poppinsRegular24f = loadCustomFont("resources/fonts/Poppins-Regular.ttf", 24f);
-        Font poppinsBold40f = loadCustomFont("resources/fonts/Poppins-Bold.ttf", 45f);
+        Font poppinsRegular14f = loadCustomFont("MO-IT110/resources/fonts/Poppins-Regular.ttf", 14f);
+        Font poppinsRegular24f = loadCustomFont("MO-IT110/resources/fonts/Poppins-Regular.ttf", 24f);
+        Font poppinsBold40f = loadCustomFont("MO-IT110/resources/fonts/Poppins-Bold.ttf", 45f);
         
         // Main panel with padding
         JPanel mainPanel = new JPanel(new GridBagLayout());
@@ -45,7 +45,7 @@ public class HRDashboard extends JFrame {
         mainPanel.add(navBarPanel, navBarPanelGBC);
         
         // motorph logo
-        ImageIcon motorphlogoAdmin = new ImageIcon("resources/images/motorph-logo-white.png");
+        ImageIcon motorphlogoAdmin = new ImageIcon("MO-IT110/resources/images/motorph-logo-white.png");
         JLabel motorPHLogo = new JLabel(motorphlogoAdmin);
         GridBagConstraints motorPHLogoGBC = new GridBagConstraints();
         motorPHLogoGBC.gridx = 0;
@@ -67,7 +67,7 @@ public class HRDashboard extends JFrame {
         navBarPanel.add(logoutButton, logoutButtonGBC);
         
         // finance logo
-        ImageIcon financeLogo = new ImageIcon("resources/images/Finance-Logo.png");
+        ImageIcon financeLogo = new ImageIcon("MO-IT110/resources/images/Finance-Logo.png");
         JLabel financeLogoLabel = new JLabel(financeLogo);
         GridBagConstraints financeLogoLabelGBC = new GridBagConstraints();
         financeLogoLabelGBC.gridx = 2;

@@ -209,7 +209,7 @@ public class DashboardPage extends JFrame {
 		mainPanelLayout.add(menubarPanel, BorderLayout.NORTH);
 		
 			// motorph logo
-			ImageIcon motorphlogoAdmin = new ImageIcon("resources/images/motorph-logo-white.png");
+			ImageIcon motorphlogoAdmin = new ImageIcon("MO-IT110/resources/images/motorph-logo-white.png");
 	        JLabel motorPHLogo = new JLabel(motorphlogoAdmin);
 	        motorPHLogo.setBorder(new EmptyBorder(-7, -10, 0, 0));
 	        menubarPanel.add(motorPHLogo, BorderLayout.WEST);
@@ -230,7 +230,7 @@ public class DashboardPage extends JFrame {
 				searchPanel.add(employeeId, gbc_employeeId);
 
 				// search button
-				ImageIcon searchButtonImage = new ImageIcon("resources/images/search-button-small.png");
+				ImageIcon searchButtonImage = new ImageIcon("MO-IT110/resources/images/search-button-small.png");
 				JButton searchButton = new JButton(searchButtonImage);
 				searchButton.setBorder(null);
 		        searchButton.setContentAreaFilled(false); 
@@ -255,7 +255,7 @@ public class DashboardPage extends JFrame {
 			
 			
 			// admin logo
-	        ImageIcon admindisplayLogo = new ImageIcon("resources/images/Admin-Logo.png");
+	        ImageIcon admindisplayLogo = new ImageIcon("MO-IT110/resources/images/Admin-Logo.png");
 	        JLabel adminLogo = new JLabel(admindisplayLogo);
 	        adminLogo.setBorder(new EmptyBorder(-3, 0, 0, 0));
 			menubarPanel.add(adminLogo, BorderLayout.EAST);
@@ -277,7 +277,7 @@ public class DashboardPage extends JFrame {
 		        	sidebarPanel.add(sidebarButtons, BorderLayout.NORTH);
 		        		
 		        		// compute button
-			        	ImageIcon computeButtonImage = new ImageIcon("resources/images/admin/admin-compute-button.png");
+			        	ImageIcon computeButtonImage = new ImageIcon("MO-IT110/resources/images/admin/admin-compute-button.png");
 			        	JButton computeButton = new JButton(computeButtonImage);
 			        	computeButton.setBorder(null);
 			        	computeButton.setContentAreaFilled(false); 
@@ -295,7 +295,7 @@ public class DashboardPage extends JFrame {
 						});
 		        	
 			        	// leave request button
-			        	ImageIcon leaveRequestButtonImage = new ImageIcon("resources/images/admin/admin-leave-request-button.png");
+			        	ImageIcon leaveRequestButtonImage = new ImageIcon("MO-IT110/resources/images/admin/admin-leave-request-button.png");
 			        	JButton leaveRequestButton = new JButton(leaveRequestButtonImage);
 			        	leaveRequestButton.setBorder(null);
 			        	leaveRequestButton.setContentAreaFilled(false); 
@@ -313,7 +313,7 @@ public class DashboardPage extends JFrame {
 						});
 			        	
 			        	// update request button
-			        	ImageIcon updateRequestsButtonImage = new ImageIcon("resources/images/admin/admin-update-request-button.png");
+			        	ImageIcon updateRequestsButtonImage = new ImageIcon("MO-IT110/resources/images/admin/admin-update-request-button.png");
 			        	JButton updateRequestsButton = new JButton(updateRequestsButtonImage);
 			        	updateRequestsButton.setBorder(null);
 			        	updateRequestsButton.setContentAreaFilled(false); 
@@ -331,7 +331,7 @@ public class DashboardPage extends JFrame {
 				        });
 						
 						// employee list button
-						ImageIcon employeeListButtonImage = new ImageIcon("resources/images/admin/admin-employee-list-button.png");
+						ImageIcon employeeListButtonImage = new ImageIcon("MO-IT110/resources/images/admin/admin-employee-list-button.png");
 						JButton employeeListButton = new JButton(employeeListButtonImage);
 						employeeListButton.setBorder(null);
 						employeeListButton.setContentAreaFilled(false); 
@@ -349,7 +349,7 @@ public class DashboardPage extends JFrame {
 						});
 			        	
 					// logout button
-					ImageIcon logoutButtonImage = new ImageIcon("resources/images/admin/admin-logout-button.png");
+					ImageIcon logoutButtonImage = new ImageIcon("MO-IT110/resources/images/admin/admin-logout-button.png");
 					JButton logoutButton = new JButton(logoutButtonImage);
 					logoutButton.setBorder(null);
 					logoutButton.setContentAreaFilled(false); 
@@ -390,7 +390,7 @@ public class DashboardPage extends JFrame {
 		
 		
 		// taskbar icon
-		ImageIcon taskbarImage = new ImageIcon("resources/images/motorph-taskbar-image.png");
+		ImageIcon taskbarImage = new ImageIcon("MO-IT110/resources/images/motorph-taskbar-image.png");
 		setIconImage(taskbarImage.getImage());
 		
 		// JFrame setup
@@ -524,7 +524,7 @@ public class DashboardPage extends JFrame {
 				);	
 			
 			// profilePicPanel group layout
-			ImageIcon empprofilePhoto = new ImageIcon("resources/images/profile-pic-emp.png");
+			ImageIcon empprofilePhoto = new ImageIcon("MO-IT110/resources/images/profile-pic-emp.png");
 			JLabel empPhoto = new JLabel(empprofilePhoto);
 			
 			GroupLayout empPhotoGL = new GroupLayout(profilePicPanel);
@@ -774,7 +774,7 @@ public class DashboardPage extends JFrame {
 	    JPanel panel = new JPanel(new BorderLayout());
 
 	    // Load the image
-	    ImageIcon originalIcon = new ImageIcon("resources/images/instruction-screen-image.png");
+	    ImageIcon originalIcon = new ImageIcon("MO-IT110/resources/images/instruction-screen-image.png");
 	    Image originalImage = originalIcon.getImage();
 
 	    // Define target size (adjust as needed)
@@ -976,10 +976,10 @@ public class DashboardPage extends JFrame {
 	private class FontLoader {
 
         // Public static font variable (accessible from anywhere)
-        public static final Font poppinsRegular45f = loadCustomFont("resources/fonts/Poppins-Regular.ttf", 50f);
-        public static final Font poppinsSearchLabel = loadCustomFont("resources/fonts/Poppins-Regular.ttf", 15f);
-        public static final Font poppinsRegular15f = loadCustomFont("resources/fonts/Poppins-Regular.ttf", 20f);
-        public static final Font poppinsSemiBold20f = loadCustomFont("resources/fonts/Poppins-SemiBold.ttf", 20f);
+        public static final Font poppinsRegular45f = loadCustomFont("MO-IT110/resources/fonts/Poppins-Bold.ttf", 50f);
+        public static final Font poppinsSearchLabel = loadCustomFont("MO-IT110/resources/fonts/Poppins-Regular.ttf", 15f);
+        public static final Font poppinsRegular15f = loadCustomFont("MO-IT110/resources/fonts/Poppins-Regular.ttf", 20f);
+        public static final Font poppinsSemiBold20f = loadCustomFont("MO-IT110/resources/fonts/Poppins-SemiBold.ttf", 20f);
 
         // Font loading utility
         private static Font loadCustomFont(String fontPath, float size) {

@@ -74,8 +74,8 @@ public class EmployeeListPage extends JFrame {
 	    setLocationRelativeTo(null);
 	    
 	    // custom font
-	    Font poppinsRegular16f = loadCustomFont("resources/fonts/Poppins-Regular.ttf", 16f);
-	    Font poppinsSemiBold18f = loadCustomFont("resources/fonts/Poppins-SemiBold.ttf", 18f);
+	    Font poppinsRegular16f = loadCustomFont("MO-IT110/resources/fonts/Poppins-Regular.ttf", 16f);
+	    Font poppinsSemiBold18f = loadCustomFont("MO-IT110/resources/fonts/Poppins-SemiBold.ttf", 18f);
 
 	    // Top Navigation Bar with LEFT and RIGHT sections
 	    JPanel navBar = new JPanel(new BorderLayout());
@@ -87,7 +87,7 @@ public class EmployeeListPage extends JFrame {
 	    navBar.add(leftNavBar, BorderLayout.WEST);
 	    
 	    // back to dashboard button
-	    ImageIcon backButtonIcon = new ImageIcon("resources/images/back-button-navbar.png");
+	    ImageIcon backButtonIcon = new ImageIcon("MO-IT110/resources/images/back-button-navbar.png");
         JButton navBackButton = new JButton(backButtonIcon);
         navBackButton.setBorder(null);
         navBackButton.setFocusPainted(false);
@@ -99,7 +99,7 @@ public class EmployeeListPage extends JFrame {
 	    leftNavBar.add(navBackButton, navBackButtonGBC);
 	    
         // company logo
-	    ImageIcon motorphlogoAdmin = new ImageIcon("resources/images/motorph-logo-white.png");
+	    ImageIcon motorphlogoAdmin = new ImageIcon("MO-IT110/resources/images/motorph-logo-white.png");
         JLabel motorPHLogo = new JLabel(motorphlogoAdmin);
         
         GridBagConstraints motorPHLogoGBC = new GridBagConstraints();
@@ -196,7 +196,7 @@ public class EmployeeListPage extends JFrame {
 	            .addComponent(jScrollPane1, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
 	    );
 	    
-		ImageIcon taskbarImage = new ImageIcon("resources/images/motorph-taskbar-image.png");
+		ImageIcon taskbarImage = new ImageIcon("MO-IT110/resources/images/motorph-taskbar-image.png");
 		setIconImage(taskbarImage.getImage());
 
 	    pack();

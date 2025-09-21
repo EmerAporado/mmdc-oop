@@ -50,7 +50,7 @@ public class HRSearchEmployeePage extends JFrame {
         mainPanel.add(navBarPanel, BorderLayout.NORTH);
         
         // back button
-        ImageIcon backButtonImage = new ImageIcon("resources/images/back-button-navbar.png");
+        ImageIcon backButtonImage = new ImageIcon("MO-IT110/resources/images/back-button-navbar.png");
         backButton = new JButton(backButtonImage);
         backButton.setFocusPainted(false);
         backButton.setBorder(null);
@@ -59,7 +59,7 @@ public class HRSearchEmployeePage extends JFrame {
         navBarPanel.add(backButton, BorderLayout.WEST);
         
         // finance logo
-        ImageIcon financeLogo = new ImageIcon("resources/images/Finance-Logo.png");
+        ImageIcon financeLogo = new ImageIcon("MO-IT110/resources/images/Finance-Logo.png");
         financeLogoLabel = new JLabel(financeLogo);
         navBarPanel.add(financeLogoLabel, BorderLayout.EAST);
         
@@ -116,7 +116,7 @@ public class HRSearchEmployeePage extends JFrame {
         searchPanel.add(searchField,searchFieldGBC);
         
         // search button
-        ImageIcon searchButtonImage = new ImageIcon("resources/images/search-button.png");
+        ImageIcon searchButtonImage = new ImageIcon("MO-IT110/resources/images/search-button.png");
         searchButton = new JButton(searchButtonImage);
         searchButton.setBorder(null);
         searchButton.setContentAreaFilled(false); 
@@ -370,10 +370,10 @@ public class HRSearchEmployeePage extends JFrame {
     public class FontLoader {
 
         // Public static font variable (accessible from anywhere)
-        public static final Font poppinsRegular12f = loadCustomFont("resources/fonts/Poppins-Regular.ttf", 12f);
-        public static final Font poppinsRegular20f = loadCustomFont("resources/fonts/Poppins-Regular.ttf", 20f);
-        public static final Font poppinsSemiBold20f = loadCustomFont("resources/fonts/Poppins-SemiBold.ttf", 20f);
-        public static final Font poppinsBold45f = loadCustomFont("resources/fonts/Poppins-Bold.ttf", 55f);
+        public static final Font poppinsRegular12f = loadCustomFont("MO-IT110/resources/fonts/Poppins-Regular.ttf", 12f);
+        public static final Font poppinsRegular20f = loadCustomFont("MO-IT110/resources/fonts/Poppins-Regular.ttf", 20f);
+        public static final Font poppinsSemiBold20f = loadCustomFont("MO-IT110/resources/fonts/Poppins-SemiBold.ttf", 20f);
+        public static final Font poppinsBold45f = loadCustomFont("MO-IT110/resources/fonts/Poppins-Bold.ttf", 55f);
 
         // Font loading utility
         private static Font loadCustomFont(String fontPath, float size) {

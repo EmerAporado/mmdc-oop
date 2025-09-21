@@ -40,10 +40,10 @@ public class HRViewAllEmployeesPage extends JFrame {
         String lightRed ="#ff5757";
         
         // custom fonts
-        Font poppinsRegular14f = loadCustomFont("resources/fonts/Poppins-Regular.ttf", 14f);
-        Font poppinsRegular16f = loadCustomFont("resources/fonts/Poppins-Regular.ttf", 16f);
-        Font poppinsSemiBold20f = loadCustomFont("resources/fonts/Poppins-SemiBold.ttf", 20f);
-        Font poppinsBold30f = loadCustomFont("resources/fonts/Poppins-Bold.ttf", 30f);
+        Font poppinsRegular14f = loadCustomFont("MO-IT110/resources/fonts/Poppins-Regular.ttf", 14f);
+        Font poppinsRegular16f = loadCustomFont("MO-IT110/resources/fonts/Poppins-Regular.ttf", 16f);
+        Font poppinsSemiBold20f = loadCustomFont("MO-IT110/resources/fonts/Poppins-SemiBold.ttf", 20f);
+        Font poppinsBold30f = loadCustomFont("MO-IT110/resources/fonts/Poppins-Bold.ttf", 30f);
         
         // Main panel
         JPanel mainPanel = new JPanel(new BorderLayout());
@@ -54,7 +54,7 @@ public class HRViewAllEmployeesPage extends JFrame {
         navBarPanel.setBorder(new EmptyBorder(5, 20, 5, 20));
         
         // back button
-        ImageIcon backButtonImage = new ImageIcon("resources/images/back-button-navbar.png");
+        ImageIcon backButtonImage = new ImageIcon("MO-IT110/resources/images/back-button-navbar.png");
         backButton = new JButton(backButtonImage);
         backButton.setFocusPainted(false);
         backButton.setBorder(null);
@@ -77,7 +77,7 @@ public class HRViewAllEmployeesPage extends JFrame {
         navBarPanel.add(titleLabel, titleLabelGBC);
         
         // search button
-        ImageIcon filterButtonImage = new ImageIcon("resources/images/filter-button.png");
+        ImageIcon filterButtonImage = new ImageIcon("MO-IT110/resources/images/filter-button.png");
         searchBtn = new JButton(filterButtonImage);
         searchBtn.setBorder(null);
         searchBtn.setContentAreaFilled(false); 
@@ -371,7 +371,7 @@ public class HRViewAllEmployeesPage extends JFrame {
         private String buttonText;
         
         public ButtonRenderer(String text) {
-        	Font poppinsRegular16f = loadCustomFont("resources/fonts/Poppins-Regular.ttf", 16f);
+        	Font poppinsRegular16f = loadCustomFont("MO-IT110/resources/fonts/Poppins-Regular.ttf", 16f);
         	
             this.buttonText = text;
             setOpaque(true);
@@ -401,7 +401,7 @@ public class HRViewAllEmployeesPage extends JFrame {
         private boolean isPushed;
         private int selectedRow;
         
-        Font poppinsRegular16f = loadCustomFont("resources/fonts/Poppins-Regular.ttf", 16f);
+        Font poppinsRegular16f = loadCustomFont("MO-IT110/resources/fonts/Poppins-Regular.ttf", 16f);
         
         public ButtonEditor(String text) {
             super(new JCheckBox());

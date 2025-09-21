@@ -49,13 +49,13 @@ private static Font loadCustomFont(String fontPath, float size) {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setLocationRelativeTo(null);
 		
-		ImageIcon taskbarImage = new ImageIcon("resources/images/motorph-taskbar-image.png");
+		ImageIcon taskbarImage = new ImageIcon("MO-IT110/resources/images/motorph-taskbar-image.png");
 		setIconImage(taskbarImage.getImage());
 
 		// custom font
-		Font poppinsHeader = loadCustomFont("resources/fonts/Poppins-Bold.ttf", 60f);
-		Font poppinsSubHeader = loadCustomFont("resources/fonts/Poppins-SemiBold.ttf",16f);
-		Font poppinsText = loadCustomFont("resources/fonts/Poppins-Regular.ttf", 14f);
+		Font poppinsHeader = loadCustomFont("MO-IT110/resources/fonts/Poppins-Bold.ttf", 60f);
+		Font poppinsSubHeader = loadCustomFont("MO-IT110/resources/fonts/Poppins-SemiBold.ttf",16f);
+		Font poppinsText = loadCustomFont("MO-IT110/resources/fonts/Poppins-Regular.ttf", 14f);
 		
 		// Setup Primary JPanel
 		JPanel container = new JPanel(new GridBagLayout());
@@ -86,7 +86,7 @@ private static Font loadCustomFont(String fontPath, float size) {
         add(container);
         setVisible(true);
         // Login Page Background Image 
-        ImageIcon icon = new ImageIcon("resources/images/mph-bg-real.png");
+        ImageIcon icon = new ImageIcon("MO-IT110/resources/images/mph-bg-real.png");
         JLabel imageLabel = new JLabel(icon);
         leftpanel.add(imageLabel);
 		
